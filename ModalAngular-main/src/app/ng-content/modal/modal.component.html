@@ -1,0 +1,17 @@
+<div class="modal">
+  <div class="conteudo1" [style.background-color]="corModal ? corModal : corModalPadrao">
+    <ng-content select="h2"></ng-content>
+    <ng-content select="h1"></ng-content>
+    <ng-content select="input"></ng-content>
+    <ng-content select="button"></ng-content>
+    <ng-content select="p"></ng-content>
+    <ng-content select="[botao]"></ng-content>
+    <ng-content select="[botao2]"></ng-content>
+  </div>
+</div>
+<div class="conteudo2">
+  <ng-content select="[modal]"></ng-content>
+  <ng-content select="button"></ng-content>
+  <ng-content select="img"></ng-content>
+  <ng-content select="[consultarBtn]"></ng-content>
+</div>

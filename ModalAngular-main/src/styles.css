@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Syne+Mono&display=swap');
+
+* {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Syne Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: trocaFundo 15s alternate infinite;
+    transform-style: preserve-3d;
+}
+
+@keyframes trocaFundo {
+    0%{background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/2410699-gato-cinza-fundo-rosa-gratis-foto.jpg');}
+    20%{background-image: url('https://img.freepik.com/fotos-premium/retrato-de-um-engracado-gato-fofo-cinza-e-branco-sentado-em-um-fundo-rosa_106368-3291.jpg?w=2000');} 
+    40%{background-image: url('https://guiaanimal.net/uploads/content/image/64074/Design_sem_nome__14_.png');} 
+    60%{background-image: url('https://img.freepik.com/fotos-premium/patas-fofas-de-gatos-no-fundo-rosa_179473-36.jpg?w=2000');}
+    80%{background-image: url('https://img.freepik.com/fotos-premium/gatinho-ragdoll-de-cabelos-compridos-com-olhos-azuis-brilhantes-em-estudio-em-fundo-rosa-gatos-com-pedigree-condicao-de-exposicao-produtos-para-animais-de-estimacao-manutencao-e-criacao-cuidar-de-animais-de-estimacao-gatos-de-olhos-azuis_251474-2670.jpg');} 
+    100%{background-image: url('https://st.depositphotos.com/1325564/3555/i/600/depositphotos_35557435-stock-photo-kitten.jpg');} 
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: rgb(240, 8, 170);
+    border: solid white 0.5px;
+    border-radius: 5px;
+}
+
+input:hover{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+::placeholder{
+    color: rgb(245, 72, 193);
+    font-weight: lighter;
+}

@@ -1,0 +1,27 @@
+<button (click)="modal()" id="botaoClique">Clique Aqui!</button>
+<br>
+<div class="fundoInp">
+    <p>Clique aqui e veja uma mágina no modal!</p>
+    <input type="text" [(ngModel)]="nomePessoa" placeholder="Informe seu nome aí!" id="inputNome">
+</div>
+
+<div class="fundo">
+    <div abreModal *ngIf="abreModal">
+        <app-modal [corModal]="corModal.value">
+            <br>
+            <h2>{{titulo}}</h2>
+            <h1 id="nomePessoa">{{nomePessoa}}</h1>
+            <button (click)="modal2()" id="botaoModal2">Clique Aqui!</button>
+            <input id="inputCor" type="text" #corModal placeholder="Exemplo: red" (change)="0"/>
+            <div *ngIf="abreModal2" modal class="modal2">
+                <app-modal>
+                    <input id="inpStatus" type="number" [(ngModel)]="status">
+                    <button consultarBtn id="consultarBtn" (click)="filtrar()">Consultar</button>
+                    <img id="imgAPI" *ngIf="linkImg" [src]="linkImg">
+                    <button (click)="modal2()" botao2 id="botaoFechar">Fechar</button>
+                </app-modal>
+            </div>
+            <button (click)="modal()" botao id="botaoFechar1">Fechar</button>
+        </app-modal>
+    </div>
+</div>

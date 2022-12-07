@@ -1,0 +1,108 @@
+
+button{
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f742a5;
+    border: solid #f742a5;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+#botaoClique{
+    width: 250px;
+    height: 50px;
+    margin-top: 210px;
+    margin-left: 50px;
+}
+
+button:hover{
+    background-color: #dd278b;
+    border-color: #dd278b;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#inputNome{
+    position: absolute;
+    top: 50px;   
+    left: 40px;
+}
+
+#botaoModal2{
+    position: absolute;
+    top: 270px;
+    left: 220px;
+}
+
+#consultarBtn{
+    position: absolute;
+    top: 450px;
+    left: 720px;
+}
+
+#botaoFechar1, #botaoFechar{
+    position: absolute;
+    left: 45px;
+    top: 270px;
+}
+
+#imgAPI{
+    position: absolute;
+    width: 130px;
+    left: 635px;
+    top: 220px;
+    border-radius: 10px;
+    border: solid #dd278b;
+}
+
+#inpStatus{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}
+
+.fundo{
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.fundoInp{
+    background: rgb(254,103,163);
+    background: radial-gradient(circle, rgba(254,103,163,1) 0%, rgba(158,0,133,1) 100%);
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    border-radius: 20px;
+    top: 190px;
+    left: 30px;
+}
+
+p{
+    color: rgb(255, 241, 249);
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#nomePessoa{
+    color: #f7a1d0;
+}
+
+#inputCor, #inpStatus{
+    position: absolute;
+    left: 100px;
+    top: 190px;
+}
